@@ -18,7 +18,7 @@
 
 ### NodeJS backend repository
 
-> https://github.com/gYunTian/EBS-G1T3
+> https://github.com/seanjin97/onecharitysg-backend
 
 ## Installation
 
