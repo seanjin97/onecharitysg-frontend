@@ -1,0 +1,1 @@
+{"ast":null,"code":"import withAuthRedirect from \"./withAuthRedirect\"; // redirect to href if not authenticated\n\nexport default function withAuth(WrappedComponent, location = \"/front\") {\n  return withAuthRedirect({\n    WrappedComponent,\n    location,\n    expectedAuth: true\n  });\n}","map":null,"metadata":{},"sourceType":"module"}

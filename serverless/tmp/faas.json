@@ -1,0 +1,21 @@
+{
+	"project": "g1t3-auth",
+	"version": "1",
+  "runtime": "nodejs10",
+  "library": "./lib",
+
+	"functions": {
+		"mylocalfunction": {
+			"module": "mylocalmodule.js",
+      "handler": "verify",
+      "httpApi": true
+		}
+	},
+
+	"triggers": {
+		"mylocalhttptrigger": {
+			"type": "HTTP",
+			"function": "mylocalfunction"
+		}
+	}
+}

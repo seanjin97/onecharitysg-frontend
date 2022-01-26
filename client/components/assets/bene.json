@@ -1,0 +1,51 @@
+{   "value": [
+    {
+        "id": "ec84afcc-11e1-11eb-adc1-0242ac120002",
+        "Address": "Bishan ......",
+        "LongLat": [1.353596, 103.843117],
+        "householdSize": 4,
+        "perCapitalIncome": 800.00,
+        "religion" : "Taosim",
+        "race" : "Chinese",
+        "numWorkingAdults": 2,
+        "noOfChildren" : 4,
+        "dietaryRestrictions": "No beef"
+    }, 
+    {
+        "id": "ec84afcc-11e1-11eb-adc1-0242ac1211113",
+        "Address": "Sin ming......",
+        "LongLat": [1.353767, 103.85273],
+        "householdSize": 3,
+        "perCapitalIncome": 400.00,
+        "religion" : "Islam",
+        "race" : "Malay",
+        "numWorkingAdults": 6,
+        "noOfChildren" : 5,
+        "dietaryRestrictions": "No Pork and lard"
+    },
+    {
+        "id": "7163fdc8-174c-11eb-adc1-0242ac120002",
+        "Address": "Sin ming......",
+        "LongLat": [1.353767, 103.85273],
+        "householdSize": 2,
+        "perCapitalIncome": 800.00,
+        "religion" : "Taosim",
+        "race" : "Chinese",
+        "numWorkingAdults": 3,
+        "noOfChildren" : 5,
+        "dietaryRestrictions": "Vegetarian only"
+    },
+    {
+        "id": "937795f0-174c-11eb-adc1-0242ac120002",
+        "Address": "Sin ming......",
+        "LongLat": [1.35085, 103.860455],
+        "householdSize": 2,
+        "perCapitalIncome": 800.00,
+        "religion" : "Taosim",
+        "race" : "Chinese",
+        "numWorkingAdults": 3,
+        "noOfChildren" : 5,
+        "dietaryRestrictions": "No beef"
+    }
+]
+}

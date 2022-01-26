@@ -1,0 +1,18 @@
+#https://blogs.sap.com/2020/07/07/deploy-application-using-docker-container-on-sap-cloud-foundry-2020/
+
+change to: app.run(host='0.0.0.0', port=port)
+
+start docker
+
+run: docker build -t="predict-module-v2" .
+
+ docker run -p 5000:5000 <name>
+ docker login
+ docker tag predict-module-v2 ganyuntian/predict-v2
+ docker push ganyuntian/predict-v2
+
+cf login:
+
+cf push my_app -b https://github.com/cloudfoundry/python-buildpack.git
+
+cf push g1t3-foodstock --docker-image ganyuntian/predict-v2:latest --docker-username ganyuntian

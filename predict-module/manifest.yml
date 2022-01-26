@@ -1,0 +1,6 @@
+---
+applications:
+- name: g1t3food
+  memory: 320M
+  random-route: true
+  command: python app.py

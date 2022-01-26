@@ -1,0 +1,9 @@
+---
+applications:
+- name: node-auth-srv
+  path: .
+  buildpack: nodejs_buildpack
+  memory: 128M
+  disk_quota: 128M
+  services:
+  - G1T3 - mongo

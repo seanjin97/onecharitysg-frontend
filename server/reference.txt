@@ -1,0 +1,24 @@
+architecture:
+- https://stackoverflow.com/questions/47007159/looking-for-jwt-auth-microservice-example/47015645
+- https://stackoverflow.com/questions/29644916/microservice-authentication-strategy
+
+NPM structure:
+- https://nodejspedia.com/en/tutorial/10785/route-controller-service-structure-for-expressjs
+
+stateless JWT:
+- https://dev.to/mr_cea/remaining-stateless-jwt-cookies-in-node-js-3lle
+
+public/private key JTW:
+- https://medium.com/@siddharthac6/json-web-token-jwt-the-right-way-of-implementing-with-node-js-65b8915d550e
+
+
+login system:
+- https://medium.com/better-programming/build-a-login-system-in-node-js-f1ba2abd19a
+
+
+Allow same domain cookie:
+https://stackoverflow.com/questions/35268764/cookie-share-with-subdomain-nodejs-httponly-cookie
+
+
+extra:
+- https://medium.com/quick-code/handling-authentication-and-authorization-with-node-7f9548fedde8

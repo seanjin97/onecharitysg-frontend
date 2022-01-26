@@ -1,0 +1,9 @@
+---
+applications:
+- name: G1T3-ebs
+  path: ./client2
+  buildpack: nodejs_buildpack
+  memory: 256M
+  disk_quota: 256M
+  services:
+  - G1T3 - mongo

@@ -1,0 +1,56 @@
+{
+  "name": "client2",
+  "version": "0.1.0",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node server.js",
+    "eslint-check": "eslint --print-config src/main.js | eslint-config-prettier-check"
+  },
+  "engines": {
+    "node": ">=10.16.3"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "axios": "^0.21.0",
+    "cfenv": "^1.2.3",
+    "chart.js": "^2.9.4",
+    "cookie-parser": "^1.4.5",
+    "dotenv-load": "^2.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "leaflet": "^1.7.1",
+    "leaflet-draw": "^1.0.4",
+    "mongoose": "^5.10.13",
+    "next": "9.5.5",
+    "next-env": "^1.1.1",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "react": "16.14.0",
+    "react-chartjs-2": "^2.11.1",
+    "react-cookie": "^4.0.3",
+    "react-data-table-component": "^6.11.5",
+    "react-dom": "16.14.0",
+    "react-leaflet": "^2.8.0",
+    "react-leaflet-draw": "^0.19.0",
+    "react-loading-overlay": "^1.0.1",
+    "react-table": "^7.6.1",
+    "react-uuid": "^1.0.2",
+    "robust-point-in-polygon": "^1.0.3",
+    "styled-components": "^5.2.1",
+    "tailwindcss": "^1.9.6",
+    "uuid": "^8.3.1",
+    "xlsx": "^0.16.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier": "^2.1.2"
+  }
+}
